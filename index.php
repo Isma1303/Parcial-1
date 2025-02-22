@@ -70,7 +70,7 @@ $conn->close();
 </html>
 
 <?php
-if isset($_POST['submit']) {
+if (isset($_POST['submit'])) {
     $nombre = $_POST['nombre'];
     $email = $_POST['email'];
     $mensaje = $_POST['mensaje'];
